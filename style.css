@@ -1,0 +1,141 @@
+/** { border:1px solid red;}*/
+
+/* formulaire de connexion fond image*/
+
+
+body {
+    background-image: url(asset/parchemin.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    
+    background-image: url('./asset/ship800x300jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+nav {
+    background: rgba(249, 185, 101, 0.95);
+    position: relative;
+    top: -20px;
+    height: 75px;
+}
+
+/*bouton connexion bascule vers formulaire*/
+
+.button__connexion {
+    position: absolute;
+    top: 35px;
+    right: 20px;     
+}
+/*bouton inscrition bascule vers formulaire*/
+.button__inscription {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    border: none;
+    cursor: pointer;
+}
+button{
+    background: #d9be85;
+    border-radius: 10%;
+    border-bottom: #53af57;
+    cursor: pointer; 
+    box-shadow: 0 1px 15px 0 #245027;
+    transition: background-color 1s;
+}
+.logo__nav {
+    position: absolute;
+    left: -30px;
+    top: 7px;
+}
+
+/*titre pirate nation */
+h2{
+    margin:auto;
+    width: 50%;
+    font-family: 'Diplomata SC',sans-serif ;
+    font-size: 3rem;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+/*image logo  au milieu du body*/
+.image__body{
+width: 300px;
+height: 300px;
+position: relative; 
+left:50%;
+top:120px;
+display: flex;
+transform: translate(-50%); 
+}
+
+/* formulaire de connexion */
+.container__connexion,
+.container__inscription {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+/*********** formulaires inscription et connexion*******/
+form {
+    background: rgba(249, 185, 101, 0.95);
+    width: 100%;
+    padding: 20px;
+
+
+    background-position: center;
+    margin: auto;
+    box-shadow: 0 0 40px 0 rgba(145, 110, 110, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* titre des formulaires */
+.container__connexion h1,
+.container__inscription h1 {
+    width: 38%;
+    margin: 0 auto;
+}
+
+/* style nom utilisateur */
+input[type=text],
+input[type=password],
+input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style mot de passe */
+input[type=submit] {
+   
+    color: white;
+    font-size:large;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background: #d9be85;
+    border-radius: 1%;
+    border-bottom: #53af57;
+    cursor: pointer; 
+    box-shadow: 0 1px 8px 0 #245027;
+    transition: background-color 1s;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
