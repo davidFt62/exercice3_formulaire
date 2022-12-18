@@ -11,7 +11,7 @@ body {
 
 
 header {
-    
+
     background-image: url('./asset/ship800x300jpg');
     height: 600px;
     background-position: center;
@@ -32,8 +32,9 @@ nav {
 .button__connexion {
     position: absolute;
     top: 35px;
-    right: 20px;     
+    right: 20px;
 }
+
 /*bouton inscrition bascule vers formulaire*/
 .button__inscription {
     position: absolute;
@@ -42,14 +43,16 @@ nav {
     border: none;
     cursor: pointer;
 }
-button{
+
+button {
     background: #d9be85;
     border-radius: 10%;
     border-bottom: #53af57;
-    cursor: pointer; 
+    cursor: pointer;
     box-shadow: 0 1px 15px 0 #245027;
     transition: background-color 1s;
 }
+
 .logo__nav {
     position: absolute;
     left: -30px;
@@ -57,10 +60,10 @@ button{
 }
 
 /*titre pirate nation */
-h2{
-    margin:auto;
+h2 {
+    margin: auto;
     width: 50%;
-    font-family: 'Diplomata SC',sans-serif ;
+    font-family: 'Diplomata SC', sans-serif;
     font-size: 3rem;
     position: relative;
     top: 100px;
@@ -68,14 +71,14 @@ h2{
 }
 
 /*image logo  au milieu du body*/
-.image__body{
-width: 300px;
-height: 300px;
-position: relative; 
-left:50%;
-top:120px;
-display: flex;
-transform: translate(-50%); 
+.image__body {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    top: 120px;
+    display: flex;
+    transform: translate(-50%);
 }
 
 /* formulaire de connexion */
@@ -85,6 +88,7 @@ transform: translate(-50%);
     margin: 0 auto;
     margin-top: 10%;
 }
+
 /*********** formulaires inscription et connexion*******/
 form {
     background: rgba(249, 185, 101, 0.95);
@@ -117,9 +121,9 @@ input[type=email] {
 
 /* Style mot de passe */
 input[type=submit] {
-   
+
     color: white;
-    font-size:large;
+    font-size: large;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -128,7 +132,7 @@ input[type=submit] {
     background: #d9be85;
     border-radius: 1%;
     border-bottom: #53af57;
-    cursor: pointer; 
+    cursor: pointer;
     box-shadow: 0 1px 8px 0 #245027;
     transition: background-color 1s;
 }
@@ -138,4 +142,3 @@ input[type=submit]:hover {
     color: #53af57;
     border: 1px solid #53af57;
 }
-
